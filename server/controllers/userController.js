@@ -3,7 +3,7 @@ import path from "path";
 import jwt from "jsonwebtoken";
 import { fileURLToPath } from "url";
 import { PDFDocument } from "pdf-lib";
-import UserModel from "../models/userModel.js";
+import UserModel from "../models/UserModel.js";
 import {
   comparePassword,
   deleteCookieAfterLogout,
