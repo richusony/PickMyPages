@@ -9,6 +9,7 @@ const Navbar = () => {
   const handleLogout = async () => { 
     try {
       const res = await axiosInstance.delete("/logout");
+      navigate('/signin');
     } catch (error) {
       return handleToast(error?.response?.data?.error);
     }

@@ -19,7 +19,8 @@ connectMongoDB(MONGODB_URI);
 const whitelist = [
   "http://localhost:5173",
   "https://pick-my-pages.vercel.app",
-  "https://pickmypages.onrender.com"
+  "https://pickmypages.onrender.com",
+  "https://pick-my-pages-3rr4bnt2q-richusonys-projects.vercel.app"
 ];
 
 const corsOptions = {
